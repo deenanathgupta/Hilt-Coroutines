@@ -2,7 +2,7 @@ package com.android.hilt_coroutine_sample.api
 
 import com.android.hilt_coroutine_sample.model.AlbumResponseModel
 
-interface IAlbumDataRepository {
+interface IAlbumDataSource {
 
     suspend fun getAlbumList():List<AlbumResponseModel>
 }
